@@ -101,3 +101,20 @@ if($idade >= 18 && $fumante == false){
             break;
     }
 ```
+
+## Estrutura de repetição
+### While - ENQUANTO
+- Será executado o laço enquanto a condição for verdadeira
+### Sintaxe
+```php
+while(condicao){
+    codigo
+}
+```
+### Exemplo
+```php
+    while($contador <= 10){
+        echo "contando: $contador<br>";
+        $contador += 1;
+    }
+```
