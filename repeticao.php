@@ -14,17 +14,16 @@
             echo "contando: $contador<br>";
             $contador += 1;
         }
-        echo "<br>";
-        
-        $clientes = ["Guto","Cleyton","Renata","Pedro","Andrea","Ana"]; //array
-        for ($i=0; $i < 5; $i++) { 
+        echo "<hr>";        
+        $clientes = ["Pedro","Guto","Cleyton","Renata","Pedro","Andrea","Ana"]; //array
+        for ($i=0; $i < 6; $i++) { 
             echo "$clientes[$i]<br>";
         }
-        echo "<br>";
-        $contador = 0;
-        while ($contador < count($clientes)){
-            echo "Cliente: $clientes[$contador]<br>";
-            $contador += 1;
+        echo "<hr>";
+        $i = 0;
+        while ($i < count($clientes)){
+            echo "Cliente: $clientes[$i]<br>";
+            $i += 1;
         }
     ?>
 </body>

@@ -118,3 +118,36 @@ while(condicao){
         $contador += 1;
     }
 ```
+### Operador de incremento e decremento
+- $i++ é igual a `$i = $i + 1`
+- o operador `++`faz com que seja atribuído +1 à variavel incremento
+- o operador `--`faz com que seja removido -1 da variável decrementada
+
+### Array
+- array é uma variável com multidimensões, isso significa que eu posso armazenar diversos valores (inclusive de tipos diferentes).
+- um array possui posições iguais a quantidade de elementos. Exemplo:
+`$clientes = ["Pedro","Guto","Cleyton","Renata","Pedro","Andrea","Ana"]`
+- o array clientes possui 3 posições, sempre começando em 0. Para exibir o cliente Guto, eu devo usar `$clientes[1]`, para exibir o cliente Cleyton, devo usar `$clientes[3]`.
+- o comando `count()` exibe a quantidade de posições de um array. Exemplo: `count($clientes)`.
+
+### FOR - para
+#### Sintaxe
+```php
+for(inicialização da variável; condição; incremento){
+    código
+}
+```
+
+#### Exemplo 1
+```php
+for($i=1 ; $i<=10 ; $i++){
+    echo $i;
+}
+```
+
+#### Exemplo 2
+```php
+for ($i=0; $i < 6; $i++) { 
+    echo "$clientes[$i]<br>";
+}
+```
