@@ -8,6 +8,9 @@
     - while
     - for
 - Desafios
+- Arquivo texto
+    - Criar
+    - Ler
 
 ## Operadores lógicos
 - Os operadores lógicos são:
@@ -151,3 +154,5 @@ for ($i=0; $i < 6; $i++) {
     echo "$clientes[$i]<br>";
 }
 ```
+
+
