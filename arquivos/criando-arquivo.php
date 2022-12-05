@@ -9,7 +9,19 @@ $listaClientes = [
         [
             "nome" => "Renata",
             "idade" => 30
-        ]  
+        ],
+        [
+            "nome" => "Pedro",
+            "idade" => 35
+        ],   
+        [
+            "nome" => "Felipe",
+            "idade" => 15
+        ],   
+        [
+            "nome" => "Roberta",
+            "idade" => 99
+        ]    
 ];
 
 // print_r($listaClientes[0]["nome"]);
