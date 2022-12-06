@@ -1,8 +1,12 @@
 <?php
 $nomearquivo = "clientes.txt";
 $arquivo = fopen($nomearquivo,"r");
-$conteudo = fread($arquivo, filesize($nomearquivo));
+$conteudo1 = fread($arquivo, filesize($nomearquivo));
+$conteudo2 = fgets($arquivo, filesize($nomearquivo));
+
+echo $conteudo1
+echo $conteudo2
 fclose($arquivo);
 
-echo $conteudo
+
 ?>
