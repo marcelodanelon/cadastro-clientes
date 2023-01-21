@@ -23,3 +23,10 @@ https://br.wordpress.org/download/
     - servidor: localhost
     - prefixo de tabela: wp_
 - Preencha as informações do nome do site, usuário, senha e e-mail.
+
+## Ambiente administrativo
+- localhost/sitewp/wp-admin
+- Barra superior
+- Menu principal
+
+## Criação 
